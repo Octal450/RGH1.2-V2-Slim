@@ -52,3 +52,6 @@ sch2HdlBatchFile
 *.xsl
 *.xwbt
 *.jed
+pnr/
+temp/
+impl/

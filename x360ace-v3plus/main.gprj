@@ -1,0 +1,11 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-1" pn="GW1N-LV1QN32C6/I5">gw1n1-002</Device>
+    <FileList>
+        <File path="src/main.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/main.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
