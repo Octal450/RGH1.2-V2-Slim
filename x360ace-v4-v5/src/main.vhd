@@ -62,8 +62,8 @@ begin
 				post_r_cnt <= post_r_cnt + 1;
 			end if;
 		end if;
-    end if;
-    if (falling_edge(POST)) then
+	end if;
+	if (falling_edge(POST)) then
 		if (RST = '0') then
 			post_f_cnt <= 0;
 		else
